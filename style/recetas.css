@@ -21,6 +21,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5vw;
+    margin: 2vw;
 }
 .img{
     width: 30vw;
@@ -30,4 +31,5 @@
 }
 .cosita{
     border: 0.5vw solid black;
+    text-align: center;
 }

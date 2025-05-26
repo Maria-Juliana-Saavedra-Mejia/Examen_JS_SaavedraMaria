@@ -3,7 +3,7 @@ console.log("holasssss");
 async function mostrarmealss() {
     console.log("holaaaaaa")
     let meal= document.getElementById("comidas")
-    const response = await axios.get(`https://www.themealdb.com/api/json/v1/1/search.php?f=a`);
+    const response = await axios.get(`https://www.themealdb.com/api/json/v1/1/search.php?f=c`);
     console.log(response.data.meals)
     const data = response.data;
     for (let i = 0; i < data.meals.length; i++) {
