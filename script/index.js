@@ -15,7 +15,7 @@ class BarraSuperior extends HTMLElement{
 
         this.shadowRoot.innerHTML =`
         ${estilos}
-       <img class="logo" src="./img/gorroCocina.png">`;  
+       <img class="logo" src="../img/gorroCocina.png">`;  
     }
 }
 customElements.define('user-card',BarraSuperior);

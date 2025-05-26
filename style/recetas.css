@@ -1,0 +1,16 @@
+@import url(../style/fonts.css);
+.estas{
+    position: absolute;
+    top: 10vw;
+    left: 27vw;
+    font-family: 'letrica';
+    font-weight: 100;
+    font-size: 5vw;
+}
+#busqueda{
+    position: absolute;
+    top: 23vw;
+    left: 27vw;
+    font-size: 1.5vw;  
+    width: 45vw; 
+}
