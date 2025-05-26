@@ -1,0 +1,75 @@
+@import url(../style/fonts.css);
+.ver{
+    position: absolute;
+    font-family: 'titulos';
+    font-size: 6vw;
+    left: 18vw;
+    top: 0vw;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+}
+.info{
+    position: absolute;
+    font-family: 'titulos';
+    font-size: 6vw;
+    left: 38vw;
+    top: 0vw;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+}
+.fav{
+    position: absolute;
+    font-family: 'titulos';
+    font-size: 6vw;
+    left: 63vw;
+    top: 0vw;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+}
+.Videos{
+    position: absolute;
+    font-family: 'titulos';
+    font-size: 6vw;
+    left: 80vw;
+    top: 0vw;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+}
+.titulo{
+    position: absolute;
+    font-family: 'letrica';
+    font-weight: 200;
+    font-size: 5vw;
+    top: 10vw;
+    left: 13vw;
+    width: 30vw;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.imagen{
+    position: absolute;
+    top: 15vw;
+    left: 50vw;
+    width: 35vw;
+    border-radius: 50%;
+    border: 0.3vw solid black;
+    color: black;
+    text-decoration: none;
+}
+.Texto{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 2vw;
+    top: 30vw;
+    left: 13vw;
+    width: 30vw;
+    text-align: center;  
+    color: black;
+    text-decoration: none;
+}
