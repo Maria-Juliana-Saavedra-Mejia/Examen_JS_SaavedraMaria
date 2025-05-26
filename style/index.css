@@ -1,4 +1,10 @@
 @import url(../style/fonts.css);
+.logo{
+    position: absolute;
+    width: 10vw;
+    top: 1vw;
+    left: 3vw;
+}
 .ver{
     position: absolute;
     font-family: 'titulos';
