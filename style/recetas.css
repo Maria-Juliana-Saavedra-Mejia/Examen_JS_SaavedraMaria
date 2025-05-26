@@ -14,3 +14,20 @@
     font-size: 1.5vw;  
     width: 45vw; 
 }
+#comidas{
+    position: absolute;
+    top: 30vw;
+    width: 8vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5vw;
+}
+.img{
+    width: 30vw;
+}
+.nombre{
+
+}
+.cosita{
+    border: 0.5vw solid black;
+}

@@ -1,4 +1,5 @@
 console.log("holasssss");
+
 async function mostrarmealss() {
     console.log("holaaaaaa")
     let meal= document.getElementById("comidas")
@@ -10,12 +11,15 @@ async function mostrarmealss() {
         let nombre = meals.strMeal;
         let img = meals.strMealThumb;
         let category= meals.strCategory;
+        let seccion= meals.strArea;
 
         meal.innerHTML += `
         <div class="cosita" idmeals="${meals.id}">
-            <img class="images" src="${img}"/>
-            <h1 class="circuitNames">${nombre}</h1>
+            <img class="img" src="${img}"/>
+            <h1 class="nombre">${nombre}</h1>
+            <h1 class="categoria">${seccion}</h1>
             <h1 class="circuitNames">${category}</h1>
+            <button>Ver mas</button>
         </div>
 `
     }
